@@ -1,6 +1,4 @@
-
 var COL = function() {
-
   var canvas = document.querySelector('canvas');
   var ctx = canvas.getContext('2d');
   canvas.height = document.querySelector('body').clientHeight/2;

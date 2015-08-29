@@ -8,6 +8,18 @@ html, body {
   text-align: center;
   font-size: 100%;
   color: #353535;
+  line-height: 1.5;
+}
+
+a {
+  color: #01c853;
+  text-decoration: none;
+  text-shadow: 1px 1px white, 1px -1px white, -1px 1px white, -1px -1px white;
+  transition: all .3s ease;
+}
+
+a:hover {
+  background: linear-gradient(#fff 1.2em, #eee 1.2em)
 }
 
 canvas {
