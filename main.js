@@ -27,7 +27,7 @@ var COL = function() {
     this.y = 0;
     this.Vx = Math.ceil(Math.random() * 5)/4 - 5/8;
     this.Vy = Math.ceil(Math.random() * 5)/4 - 5/8;
-    this.radius = radius || 20;
+    this.radius = radius || ( canvas.width > 800 ? 20 : 10 );
 
     this.setPosition();
   }
