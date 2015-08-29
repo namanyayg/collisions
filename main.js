@@ -3,7 +3,7 @@ var COL = function() {
 
   var canvas = document.querySelector('canvas');
   var ctx = canvas.getContext('2d');
-  canvas.height = document.querySelector('body').clientHeight;
+  canvas.height = document.querySelector('body').clientHeight/2;
   canvas.width = document.querySelector('body').clientWidth;
 
   var points = [];
@@ -151,7 +151,7 @@ var COL = function() {
   var drawPoint = function(p) {
     ctx.beginPath();
     ctx.arc( p.x, p.y, p.radius, 0, 2 * Math.PI, false );
-    ctx.strokeStyle = '#fff';
+    ctx.strokeStyle = '#01c853';
     ctx.stroke();
     ctx.closePath();
 
